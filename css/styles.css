@@ -1,0 +1,160 @@
+/* https://coolors.co/dcdcdd-d1d0d2-c5c3c6-b6b4b7-aeadb0-a6a5a8
+#dcdcdd-gainsboro
+#d1d0d2-light gray
+#c5c3c6-silver
+#b6b4b7-silver metallic
+#a6a5a8-silver metallic
+#aeadb0-silver metallic
+#98979b-spanish gray
+*/
+/* font color #000000 */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #4c5c68;
+  margin: 0;
+  padding: 0;
+  font-family: "Electrolize", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  box-shadow: 20px 30px 10px gray;
+  border: solid 6px #a6a5a8;
+}
+.title {
+  display: inline;
+}
+
+h1 {
+  text-align: left;
+  padding: 80px;
+  font-size: 50px;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+/* --------body main------- */
+
+body {
+  background-color: #dcdcdd;
+  color: black;
+  text-align: center;
+}
+
+/* ---------about----------- */
+
+.about {
+  background-color: #d1d0d2;
+  color: black;
+}
+/* ----------work----------- */
+
+.work {
+  background-color: #c5c3c6;
+  color: black;
+}
+
+/* --------education-------- */
+
+.education {
+  background-color: #b6b4b7;
+  color: black;
+}
+
+/* ----------skills--------- */
+
+.skills {
+  background-color: #aeadb0;
+  color: black;
+}
+.list-inline-item {
+  width: 100%;
+  list-style: none;
+  font-size: 3rem;
+  display: inline;
+  margin: 0 20px;
+}
+
+/* ---------interest-------- */
+
+.interest {
+  background-color: #a6a5a8;
+}
+
+/* -------- portfolio ------- */
+
+.portfolio {
+  background-color: #98979b;
+  color: black;
+}
+
+/* ----------contact-------- */
+
+.contact {
+}
+
+/* ------- form-section ------ */
+
+.contact-form {
+  border: 1px none;
+  float: left;
+  width: 50%;
+}
+
+/* ---------- footer -------- */
+
+.footer {
+  background-color: #c5c3c6;
+  color: black;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* -----------nav------------ */
+.sticky {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navlink {
+  color: white;
+  display: inline;
+  margin: 0 20px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  top: 0px;
+}
+
+.sticky a {
+  padding: 0px;
+  display: inline;
+}
+
+.nav .li {
+  margin: 0px 20px;
+  font-size: 1.3rem;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #d1d0d2;
+}
